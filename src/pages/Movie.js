@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import NavBar from '../components/NavBar';
 import { useParams } from 'react-router-dom';
 
+
 function Movie() {
   const [movie, setMovie] = useState({});
   const { id } = useParams();
